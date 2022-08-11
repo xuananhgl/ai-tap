@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 375px;
+    height: 100vh;
+    display: block;
+}
+#main{
+
+}
+#header{
+    width: 100%;
+    height: 70px;
+    background: #F1F6FA 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.header_menu{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    
+}
+.header_menu i{ 
+    position: relative;
+    left: 20px;}
+.zg_logo img{
+    width: 180px;
+    opacity: 1;
+    position: relative;
+    left: 15px;
+}
+.list_menu{
+    
+    position: absolute;
+    left: 350px;
+    display: none;
+
+}
+#lider{
+
+background-color: #F1F6FA;
+}
+.list-item{
+  
+}
+.header_container{
+      height: 1000px;
+}
+.container_title{
+    margin-left: 20px;
+}
+.header_container img{
+    width: 375px;
+    height: 210px;
+}
+.item_mute{
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 12px 30px #0418391A;
+    border-radius: 22px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 15px;
+    margin-left: 325px;
+}
+.br_toi{
+    background-color:#041839 ;
+}
+.font_white{
+    color: #fff;
+}
+.font_blue{
+    color:  #041839;
+}
+.br_blue{
+    background-color: #1A9BF7;
+}
+.container_title{
+    
+}
+.container_title h1{
+    display: flex;
+    width: 339px;
+    height: 131px;
+    text-align: left;
+    font: normal normal medium 36px/40px Poppins;
+    letter-spacing: -1.08px;
+    color: #041839;
+    opacity: 1;
+    position: absolute;
+    top:140px ;
+    font-size: 36px;
+   
+}
+.container_about p{
+    width: 298px;
+height: 86px;
+text-align: left;
+font: normal normal normal 16px/19px Poppins;
+letter-spacing: 0px;
+color: #041839;
+opacity: 1;
+position: relative;
+position: relative;
+top: 60px;
+left: 0px;
+}
+.container_button{
+    width: 148px;
+    height: 20px;
+    background: #FFD051 0% 0% no-repeat padding-box;
+     opacity: 1;
+     align-items: center;
+     text-align: center;
+     display: flex;
+     border-radius: 50px;
+     text-decoration: none;
+     font-size: 13px;
+     justify-content: center;
+     position: relative;
+
+    top: 50px;
+    left: 0px;
+}
+.container_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 137px;
+    height: 39px;
+    opacity: 1;
+    font-size:16px ;
+    gap: 30px;
+    position: absolute;
+    top:380px ;
+}
+.slide_box1{
+    display: none;
+}
+.slider_content{
+    display: block;
+    width: 335px;
+    height: 445px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+    position: relative;
+    top: 150px;
+    left: 20px;
+    padding: 20px;
+}
+.slider_titel{
+margin: 0px;
+width: 81px;
+height: 28px;
+/* UI Properties */
+text-align: left;
+font: normal normal medium 12px/38px Poppins;
+letter-spacing: 1.2px;
+color: #BEBEBE;
+text-transform: uppercase;
+opacity: 1;
+display: flex;
+justify-content: space-around
+}
+.next_pre{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 15px;
+    left: 235px;
+    
+}
+.slider_next, 
+.slider_pre{
+width: 32px;
+height: 32px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 12px 30px #0418391A;
+border-radius: 22px;
+opacity: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.slider_h1{
+    margin: 34px 0px 34px 0px;
+}
+.slider_about{
+    width: 295px;
+    height: 133px;
+    text-align: left;
+    font: italic normal normal 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #041839;
+    opacity: 1;
+    font-size: 18px;
+    line-height: 27px;
+}
+.slider_note{
+
+}
+.note{
+
+}
+.cycle{
+    position: absolute;
+    top: 380px;
+    left: 200px;
+}
+#content{
+   
+}
+.content_pfc{ 
+    display: block;
+    height: 1990px;
+    background: #041839 0% 0% no-repeat padding-box;
+    opacity: 1;}
+.content_pfc_titel{
+width: 335px;
+height: 43px;
+text-align: center;
+letter-spacing: 0px;
+color: #049BF7;
+text-transform: uppercase;
+opacity: 1;
+font-size: 30px;
+position: relative;
+top: 102px;
+}
+.content_pfc_text{}
